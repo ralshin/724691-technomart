@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+    <title>Техномарт</title>
   </head>
   <body>
   	<header class="main-header">
@@ -14,13 +14,13 @@
   					<li><a href="#">Оформить заказ</a></li>
   				</ul>  			
   		</nav>
-  		<img src="#" alt="Основные контакты">
-      <div>
-        <ul class="second-nav-list-header">
-          <li><a href="#">Вход</a></li>
-          <li><a href="#">Регистрация</a></li>
-        </ul>
+      <div class="header-contacts">
+  		  <img src="#" alt="Основные контакты">
       </div>
+      <ul class="second-nav-list-header">
+        <li><a href="#">Вход</a></li>
+        <li><a href="#">Регистрация</a></li>
+      </ul>
   		<nav class="main-navigation">
   			<ul class="third-nav-list-header">
           <li><a href="#">Главная</a></li>
@@ -33,8 +33,35 @@
         </ul>
   		</nav>
   	</header>
-<!--Основной контент-->
-
+    <main class="main-content">
+      <ul class="popular sections">
+        <li><a href="#"><img src="#" alt="Материалы"></a></li>
+        <li><a href="#"><img src="#" alt="Инструмент"></a></li>
+        <li><a href="#"><img src="#" alt="Техника"></a></li>
+        <li><a href="#"><img src="#" alt="Скидка 50%"></a></li>
+        <li><a href="#"><img src="#" alt="Доставка"></a></li>
+      </ul>
+      <!--После списка элемент Javascript "Дрели"-->
+      <a href="#popular-list-products"><img src="#" alt="ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ:"></a> 
+      <ul class="all-popular-products-list" id="popular-list-products">
+        <li><a href="#"><img src="#">1</a></li>
+        <li><a href="#"><img src="#">2</a></li>
+        <li><a href="#"><img src="#">3</a></li>
+        <li><a href="#"><img src="#">4</a></li>
+      </ul>  
+      <a href="#popular-list-vendor"><img src="#" alt="ВСЕ ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:"></a> 
+      <ul class="all-popular-products-list" id="popular-list-vendor">
+        <li><a href="#"><img src="#">1</a></li>
+        <li><a href="#"><img src="#">2</a></li>
+        <li><a href="#"><img src="#">3</a></li>
+        <li><a href="#"><img src="#">4</a></li>
+        <li><a href="#"><img src="#">5</a></li>
+        <li><a href="#"><img src="#">6</a></li>
+        <li><a href="#"><img src="#">7</a></li>
+        <li><a href="#"><img src="#">8</a></li>
+      </ul>
+      <p> 
+    </main>
     <footer class="first-main-footer">
       <div>
         <img src="#" alt="Техномарт">
